@@ -1,0 +1,10 @@
+[package]
+name = "container"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+locutus-stdlib = "0.0.3"
+
+[lib]
+crate-type = ["cdylib"]
